@@ -5,7 +5,6 @@
 // The second argument/parameter is expected to be a function
 
 var whereIsWaldo = "";
-//var nameArray = ["Alice", "Bob", "Waldo", "Winston"];
 
 function findWaldo(arr, found) {
 	arr.forEach(function(name, i) {
@@ -16,7 +15,8 @@ function findWaldo(arr, found) {
 	});
 }
 
-function actionWhenFound() { //cb
+//cb
+function actionWhenFound() {
    console.log("Found Waldo at Index " + whereIsWaldo + "!");
 }
 
